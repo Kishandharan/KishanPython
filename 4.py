@@ -1,3 +1,4 @@
+from inputimeout import inputimeout, TimeoutOccurred
 import random
 import sys
 ################################
@@ -9,7 +10,15 @@ user_word = ""
 user_last_char = ""
 comp_last_char = ""
 user_score = 0
-rounds = int(input("How many rounds do you want to play? >> "))
+timeout = 10
+while True:
+    try:
+        rounds = int(input("How many rounds do you want to play? >> "))
+        break
+    except ValueError:
+        print("Hmm! it looks like you have entered something invalid to this prompt!")
+        print("Let's try again!")
+        print()
 print("Alright, let's start!")
 print()
 
@@ -28,7 +37,14 @@ for x in range(0, rounds, 1):
         comp_last_char = comp_word[-1]
         print("Comp >>", comp_word)
 
-    user_word = input("User >> ")
+    try:
+        user_word = inputimeout(prompt="User >> ", timeout=timeout)
+    except TimeoutOccurred:
+        print("Oops, you lost! Because you took too long to respond!")
+        print(f"The maximum amount of time you can take to respond is {timeout} secs.")
+        print(f"Here is your score: {user_score}")
+        sys.exit()
+
     user_last_char = user_word[-1]
     if user_word.startswith(comp_last_char) and (user_word in dictionary2):
         user_score += 1
