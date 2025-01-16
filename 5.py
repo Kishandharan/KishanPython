@@ -1,0 +1,1 @@
+print("apple banana are very nice fruits!")
