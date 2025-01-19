@@ -1,5 +1,6 @@
 from random import randint
 ######################################
+computer_number = 0
 user_add_confirm = ""
 user_confirm_all = False
 user_move = ""
@@ -22,7 +23,7 @@ for x in game_matrix:
 for z in game_matrix:
     print(z)
 
-for g in range(0, 5):
+for g in range(0, 10):
     user_move = input("MV > ") # <row>-<row-item>, Example: 1-1
     row = int(user_move.split("-")[0])-1
     item = int(user_move.split("-")[1])-1
@@ -31,11 +32,18 @@ for g in range(0, 5):
         if user_add_confirm == "y":
             pass
         elif user_add_confirm == "n":
+            print(user_number)
             continue
         elif user_add_confirm == "a":
             user_confirm_all = True
         else:
             print("Oops! It looks like you have entered something invalid! So we are defaulting to NO!")
             continue
+    user_number = user_number + game_matrix[row][item]
+    print(user_number)
 
-
+computer_number = randint(1, 400)
+if computer_number > user_number:
+    print("The computer won!")
+else:
+    print("YOU won!")
