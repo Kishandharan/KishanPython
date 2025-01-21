@@ -1,0 +1,7 @@
+str1 = input("")
+list1 = str1.split()
+list2 = list()
+list2.append(list1[0]+list1[1])
+list2.append(list1[1]+list1[2])
+list2.append(list1[2]+list1[0])
+print(list2)
