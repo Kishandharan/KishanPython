@@ -1,4 +1,5 @@
 import os
+import shutil
 import sys
 
 args = sys.argv
@@ -15,9 +16,14 @@ else:
             os.chdir(".ftt")
             os.mkdir(args[2])
             os.chdir(args[2])
-            file=open(args[2], "w")
-            os.chdir("../..")
-            org_filecontent=open(args[2],"r").read()
-            os.chdir(f".ftt/{args[2]}")
-            file.write(org_filecontent)
-            os.chdir("../..")
+            if not os.path.isfile(".lstct"):
+                lstct_file=open(".lstct", "w")
+                lstct_file.write("1")
+                lstct="1"
+            else:
+                lstct_file=open(".lstct", "r")
+                lstct=lstct_file.read()
+
+
+            file=open(args[2]+lstct, "w")
+            shutil.copyfile(f"../../{args[2]}", f"./{args[2]+lstct}")
