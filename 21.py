@@ -28,5 +28,5 @@ else:
             shutil.copyfile(f"../../{args[2]}", f"./{args[2]+lstct}")
             os.chdir("../")
     if args[1] == "restore":
-        # To Be Continued
+        #To be continued...
 
