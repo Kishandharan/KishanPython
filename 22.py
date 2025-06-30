@@ -1,0 +1,23 @@
+import datetime as dt
+cities = ["sfo", "ny", "lon", "utc", "dub", "blr", "sgr", "tok", "syd", "wel"]
+blr = dt.datetime.now()
+utc = blr+dt.timedelta(hours=-5.5)
+lon = utc+dt.timedelta(hours=-1)
+ny = utc+dt.timedelta(hours=-4)
+sfo = utc+dt.timedelta(hours=-7)
+dub = utc+dt.timedelta(hours=+4)
+sgr = utc+dt.timedelta(hours=+8)
+tok = utc+dt.timedelta(hours=+9)
+syd = utc+dt.timedelta(hours=+10)
+wel = utc+dt.timedelta(hours=+12)
+print(cities[0], ":", sfo)
+print(cities[1], ":", ny)
+print(cities[2], ":", lon)
+print(cities[3], ":", utc)
+print(cities[4], ":", dub)
+print(cities[5], ":", blr)
+print(cities[6], ":", sgr)
+print(cities[7], ":", tok)
+print(cities[8], ":", syd)
+print(cities[9], ":", wel)
+
