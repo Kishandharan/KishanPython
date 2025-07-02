@@ -27,3 +27,20 @@ Here is the sample outputs for the first stage and the second one which we have 
 ```
 
 In Stage 2, the tables should have 10 items in them. We should also generate from the 3 table to the 10 table.
+
+## Assignment 2 - Simple calculator
+### 2a
+Create a simple calculator that accepts 3 imputs:   
+1. First number    
+2. Second number                                    
+3. Operation (What we want to do with the numbers)                              
+
+In the third input, if the user enters an asterisk we have to multiply those numbers.               
+if the user enters a plus symbol, we have to add those numbers.                                     
+if the user enters a minus symbol, we have to subtract those numbers.                               
+if the user enters a slash symbol, we have to divide those numbers                        
+And lastly, if the user enters something else other than these, we have to give a print saying "Oopsie! You have entered an invalid input!! Please try again!!!!!"
+
+
+
+

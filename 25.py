@@ -1,0 +1,8 @@
+print("S        K")
+print("Sh       Ki")
+print("Sha      Kis")
+print("Shar     Kish")
+print("Shara    Kisha")
+print("Sharad   Kishan")
+print("Sharadh")
+print("Sharadha")
