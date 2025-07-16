@@ -51,3 +51,16 @@ if the user enters a minus symbol, we have to subtract those numbers.
 if the user enters a slash symbol, we have to divide those numbers                        
 And lastly, if the user enters something else other than these, we have to give a print saying "Oopsie! You have entered an invalid input!! Please try again!!!!!"
 
+## Assignment 3 - Password Generator
+### 3a 
+Create a password generator that generates a random three character password everytime we run it. The first char should be a lowercase letter, and then uppercase, and then a number. No need for shuffling here. Use 3 lists for storing all the lowercase and uppercase letters, and numbers respectively.
+
+### 3b
+Now create a similar password generator as before but this time, take the chars from one list that contains all the numbers, lowercase and uppercase letters. This will make the password shuffled.
+
+### 3c
+Now do the exact same as the above, except, create a function that accepts the length of the password and generates a password of that length.
+
+### 3d
+Now create another function that takes both the quantity of passwords, and the length of the password. generate the output as list that contains the passwords according to the function arguments.
+
