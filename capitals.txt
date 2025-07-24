@@ -1,0 +1,10 @@
+India, New Delhi
+US,Washington DC
+UK,London
+France,Paris
+Italy,Rome
+UAE,Dubai
+Tokyo,Japan
+Sri Lanka,Colombo
+Russia,Moscow
+China,Beijing
