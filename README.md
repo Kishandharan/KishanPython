@@ -64,3 +64,13 @@ Now do the exact same as the above, except, create a function that accepts the l
 ### 3d
 Now create another function that takes both the quantity of passwords, and the length of the password. generate the output as list that contains the passwords according to the function arguments.
 
+## Assignment 4 - Virus Finder
+### 4a
+Create a program that searches all the files inside the current working directory (including all subdirectories) with specific bad content.    
+Use the os.walk function in python to traverse the directory.
+
+### 4b 
+Do the same program as before, except now the program has to check whether a file's content is equal to one of many bad contents from a hardcoded list.
+
+### 4c
+Now, instead of taking the bad content from a hardcoded list, take it from a file named signature.txt
