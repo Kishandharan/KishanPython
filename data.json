@@ -1,0 +1,8 @@
+{
+    "shortnames": ["CS", "AB"],
+    "emails": ["ckuthyar@gmail.com", "abhinandhanbhatta.sangamone@gmail.com"],
+    "in_time_utc": ["00:30", "00:51"],
+    "out_time_utc": ["01:30", "01:30"],
+    "durations":[60, 59]
+
+}

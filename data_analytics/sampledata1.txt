@@ -1,0 +1,15 @@
+item,rate,qty
+matchbox,10,10
+perfume,700,6
+pillow,250,4
+milk,28,2 
+curd,28,2 
+dishwash liquid(half litre),200,2 
+table,800,1 
+tv,35000,1
+washing machine,25000,1 
+floor mat,200,4 
+curtain,100,4
+HP Office Laptop,85000,1
+HP Victus Gaming Laptop,65000,1
+
