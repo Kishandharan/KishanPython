@@ -1,0 +1,15 @@
+idli,20
+idliVada,30
+Dosa,25
+MasalaDosa,35
+GobiManchurian,40
+PannerMattarDheeBiriyani,100
+HydrabadiDumBiriyani,110
+CoinParotta,130
+MalabarParotta,130
+ChapathiUnlimited,100
+Rajma,30
+Uttappam,30
+Raitha,0
+KadaiPaneer,10 
+ChannaMasala,10 

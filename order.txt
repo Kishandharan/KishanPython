@@ -1,0 +1,8 @@
+Pranathi,ChapathiUnlimited,5,17-10-2025
+Pranathi,Rajma,2,17-10-2025
+Pranathi,Raitha,1,17-10-2025
+Ankur,HydrabadiDumBiriyani,1,17-10-2025 
+Ankur,Raitha,1,17-10-2025
+Kuthyar,MasalaDosa,2,17-10-2025
+Kishan,HydrabadiDumBiriyani,1,17-10-2025
+Kishan,Raitha,1,17-10-2025
