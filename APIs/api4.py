@@ -7,7 +7,7 @@ app1 = Flask(__name__)
 CORS(app1)
 junk = input("Enter Your ****: ")
 con1 = mysql.connector.connect(
-    host="localhost",
+    host="172.105.253.146",
     user="root",
     password=junk,
     database="jokes"
